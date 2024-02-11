@@ -26,6 +26,8 @@ server:
   servlet:
     context-path: /actracker-api
 management:
+#  server:
+#    port: 8081 # This is considered best practice as it avoids sharing the main server thread pool to serve both application requests and management requests
   endpoints:
     web:
       base-path: /info
