@@ -1,18 +1,12 @@
-package ovh.equino.actracker.main.springboot.configuration;
+package ovh.equino.actracker.main.springboot.configuration.repository;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.FilterType;
-import ovh.equino.actracker.domain.activity.ActivityDataSource;
 import ovh.equino.actracker.domain.activity.ActivityRepository;
-import ovh.equino.actracker.domain.dashboard.DashboardDataSource;
 import ovh.equino.actracker.domain.dashboard.DashboardRepository;
-import ovh.equino.actracker.domain.tag.TagDataSource;
 import ovh.equino.actracker.domain.tag.TagRepository;
-import ovh.equino.actracker.domain.tagset.TagSetDataSource;
 import ovh.equino.actracker.domain.tagset.TagSetRepository;
-import ovh.equino.actracker.domain.tenant.TenantDataSource;
-import ovh.equino.actracker.notification.outbox.NotificationDataSource;
 import ovh.equino.actracker.notification.outbox.NotificationRepository;
 
 @Configuration
